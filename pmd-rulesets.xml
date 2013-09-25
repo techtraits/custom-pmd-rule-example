@@ -68,7 +68,7 @@
   <rule ref="rulesets/unusedcode.xml/UnusedPrivateField">					<priority>1</priority></rule>
   <rule ref="rulesets/unusedcode.xml/UnusedPrivateMethod">					<priority>1</priority></rule>
   <rule ref="rulesets/unusedcode.xml/UnusedFormalParameter">                <priority>1</priority></rule>
-    <rule name="DontImportWild" message="Please no wirld card imports" class="net.sourceforge.pmd.rules.XPathRule">
+    <rule name="DontImportWild" message="Please no wild card imports" class="net.sourceforge.pmd.rules.XPathRule">
     <description>We don't take kindly to imports such as java.net.* round these parts</description>
     <priority>1</priority>
     <properties>
